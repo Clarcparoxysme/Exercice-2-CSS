@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  line-height: 1.4;
+}
+h1 {
+  color: #1a2a55;
+}
+.tableau-caisse {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.tableau-caisse h2 {
+  color: #7b1fa2;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+}
+th, td {
+  border: 1px solid #888;
+  padding: 8px 12px;
+}
+thead {
+  background: #ddd;
+}
+tbody tr:nth-child(even) {
+  background: #eee;
+}
+tfoot {
+  background: #bbb;
+  font-weight: bold;
+}
+.caption {
+  text-align: center;
+  font-style: italic;
+  padding-top: 6px;
+  color: #444;
+}
+.subhead th {
+  background: #ffff99;
+}
+.tableau-horaires th {
+  background: #ff9;
+  border: 1px solid #999;
+}
+.tableau-horaires td {
+  border: 1px solid #999;
+  text-align: center;
+}
+.ouvert {
+  background: #00c0ff;
+}
+.ferme {
+  background: #9933cc;
+  color: white;
+}
+.note {
+  background: #ff9;
+  text-align: center;
+  font-size: 0.9em;
+}
+.return-home {
+  text-align: right;
+  margin-top: 30px;
+}
+.return-home a {
+  background: #7b1fa2;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.return-home a:hover {
+  opacity: 0.9;
+}
